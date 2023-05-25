@@ -1,29 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 nav .logo1 img{
     border: 0;
     max-width: 70px;
-    max-height: 70px;
-  
-   
-    
-      
+    max-height: 70px;      
 }
 body{
     text-align: center;
     align-items: center;
     background-color: #085a0c;
-  
 }
-
 nav{
     border: 2px solid rgb(0, 0, 0);
-
     display: flex;
     height: 80px;
     width: 100%;
@@ -43,11 +29,9 @@ nav ul{
     flex-wrap: wrap;
     list-style: none;
 }
-
 nav ul li{
     margin: 0 5px;
 }
-
 nav ul li a{
     color: #f2f2f2;
     text-decoration: none;
@@ -62,7 +46,6 @@ nav ul li a.active,
 nav ul li a:hover{
     background: #000000;
 }
-
 nav .menu-btn i{
     color: #fff;
     cursor: pointer;
@@ -99,17 +82,12 @@ nav .menu-btn i{
         color: #eb009c
     }
 }
-
-
-
 img{
     border: 10px solid #ffebcd;
     box-shadow: 5px 5px 5px #0006;
     flex-grow: 1;
     transition: tranform .5s linear;
 }
-
-
 img{  
     
         width: 100%;
@@ -117,18 +95,10 @@ img{
         height: auto;
         align-items: center;  
 }
-
-
-
-
-
-
 a{
     text-decoration: dotted;
     color: #000000;
 }
-
-
 main{
 width: 92%;
     right: 1200;
@@ -138,5 +108,4 @@ width: 92%;
     border: 2px solid #dfdfdf;
     align-items: center;
     border-left: 100px;
-
 }
